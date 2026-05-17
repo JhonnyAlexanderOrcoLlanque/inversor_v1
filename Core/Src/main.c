@@ -47,7 +47,7 @@ TIM_HandleTypeDef htim2;
 #define SINE_SAMPLES 100
 #define PWM_MAX 1599
 
-volatile uint8_t amplitud = 60; // 0 a 100 %
+volatile uint8_t amplitud = 100; // 0 a 100 %
 volatile uint16_t idx = 0;
 uint16_t sineTable[SINE_SAMPLES];
 
